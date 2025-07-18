@@ -9,7 +9,7 @@ pipeline
              APP_NAME   = "register-app"
              RELEASE    = "1.0.0"
              DOCKER_USER = 'nrshub'
-             DOCKER_PASS = 'dckr_pat_mZVyQE9XA_0LKQQnq3DFQf4tJ8c'
+             DOCKER_PASS = 'nrs123'
              IMAGE_NAME = "${DOCKER_USER}" + "${APP_NAME}"
              IMAGE_TAG  = "${RELEASE}-${BUILD_NUMBER}"
           }
