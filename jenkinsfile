@@ -10,7 +10,7 @@ pipeline {
     APP_NAME   = "register-app"
     RELEASE    = "1.0.0"
     IMAGE_TAG  = "${RELEASE}-${BUILD_NUMBER}"
-    IMAGE_NAME = "nrshub/${APP_NAME}"  // Docker Hub repo format
+    IMAGE_NAME = "nrshub/${APP_NAME}"
   }
 
   stages {
